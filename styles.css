@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.tweet-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    resize: none;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a8cff;
+}
+
+button:active {
+    background-color: #0066cc;
+}
+
+.tweet {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between; /* spreads icons across */
+    margin-top: 15px;
+    padding: 0 40px; /* pushes them away from edges */
+    font-size: 18px;
+    color: gray;
+}
